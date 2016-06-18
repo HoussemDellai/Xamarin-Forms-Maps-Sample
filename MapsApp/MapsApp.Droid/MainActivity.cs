@@ -21,6 +21,11 @@ namespace MapsApp.Droid
 
             // use this link to get Maps Key :
             // https://developer.xamarin.com/guides/android/platform_features/maps_and_location/maps/obtaining_a_google_maps_api_key/
+            // and add this element to your AndroidManifest file, inside Application element:
+            //<meta-data android:
+            //name="com.google.android.geo.API_KEY" android:
+            //value="AIzaSyDBM5kWALJfZljMRj2M03R2oGCzcvVRFfI" />
+
             Xamarin.FormsMaps.Init(this, bundle);
 
             global::Xamarin.Forms.Forms.Init(this, bundle);
